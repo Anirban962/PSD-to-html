@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+}
+/*common style*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.5rem;
+	font-size: 23px;
+	margin: 0;
+	padding: 0; 
+}
+img{
+	height: auto;
+	max-width: 100%;
+}
+h2{
+	color: white;
+	margin: 0;
+}
+h1{
+	margin: 0;
+}
+p{
+	font-size: 20px;
+}
+
+a[href]{
+	background-color: #fcd20d;
+	height: 10px;
+	width: 10px;
+	padding: 10px;
+	padding-left: 55px;
+	padding-right: 55px;
+	border-radius: 13px;
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+/*header*/
+#header{
+	background-color: #fcd20d;
+	height: 126px;
+	width: auto;
+}
+#header h2{	
+	margin: 40px 100px;
+	display: inline-block;
+}
+#header img{
+	height: 73px;
+	width: 78px;
+	transform: translate(81%,2%);
+}
+
+.latest h1{
+	text-transform: uppercase;
+	color: #fcd20d;
+	font-weight: bold;
+	font-size: 80px;
+	text-align: center;
+	margin: 15px;
+}
+.latest p{
+	text-align: center;
+	font-weight: bold; 
+}
+.hero-img,.img-fluid{
+	display: block;
+	margin: auto;
+	height: 400px;
+	width: 912px;
+}
+#section h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+@media only screen and (min-width: 576px) and (max-width: 1199px){
+#section h1{
+	margin-left: -86px;
+	}
+}
+
+#section1 h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.5rem;
+}
+@media only screen and (min-width: 576px){
+	#section1 h3{
+		line-height: 2rem;
+	}	
+}
+
+
+#section1 p{
+	text-transform: none;
+}
+
+#section1 img{
+	height: 221px;
+	width: 345px;
+}
+
+#section2 img{
+	height: 221px;
+	width: 345px;
+}
+#section2 h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1rem;
+}
+@media only screen and (min-width: 576px){
+#section2 h3{
+	line-height: 2rem;
+	}
+}
+
+#section2 p{
+	text-transform: none;
+
+}
+#section3 img{
+	height: 221px;
+	width: 345px;
+}
+#section3 h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1rem;
+}
+#section3 p{
+	text-transform: none;
+}
+#footer{
+	width: auto;
+	height: 130px;
+	background-color: #fcd20d;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+#footer p{
+	margin-top: 30px;
+	font-size: 28px;
+}
+#footer img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+#footer_last p{
+	font-size: 16px;	
+}
+@media only screen and (min-width: 576px) and (max-width: 1199px){
+	#footer_last p{
+		font-size: 13px;
+	}
+}
